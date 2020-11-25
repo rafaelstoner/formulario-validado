@@ -1,1 +1,4 @@
 [1125/115202.151:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1125/182833.723:ERROR:process_info.cc(359)] UncheckedAllocate
+[1125/182833.835:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\rafae\AppData\Roaming\Brackets\live-dev-profile\Crashpad\attachments\e6712252-b668-4931-a0a8-1152a8a3dcbb: The system cannot find the path specified. (0x3)
+[1125/182841.432:ERROR:process_info.cc(359)] UncheckedAllocate
