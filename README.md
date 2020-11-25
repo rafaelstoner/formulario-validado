@@ -8,7 +8,7 @@ https://rafaelstoner.github.io/formulario-validado/
 
 
 # Formulário Profissional
-O presente reposiório contém um formulário profissional e moderno, com validações feitas do lado do usuário.
+O presente repositório contém um formulário profissional e moderno, com validações feitas do lado do cliente.
 
 
 
@@ -17,6 +17,7 @@ O presente reposiório contém um formulário profissional e moderno, com valida
 ## Sobre o Formulário
 O formulário é bem simples, mas aborda pontos importantes como validação de dados e formatação de mensagens de erros! 
 É de se esperar que um web developer saiba criar formulário que permitam fazer uma boa validação de dados e usem o mínimo de recursos computacionais para isso.
+Aproveite
 
 
 
