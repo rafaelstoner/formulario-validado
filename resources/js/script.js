@@ -18,7 +18,7 @@ function storeFormData() {
         email: form.email.value,
         password: form.password.value
     };
-    
+
     // Acção a realizar com os dados 
     console.log(user);
 }
@@ -35,6 +35,7 @@ function validateForm() {
         messageContainer.style.borderColor = 'red';
         return;
     }
+    // Validar passwords
     if (passord1El.value === passord2El.value) {
         passwordsMatch = true;
         passord1El.style.borderColor = 'green';
@@ -48,7 +49,8 @@ function validateForm() {
         passord2El.style.borderColor = 'red';
         return;
     }
-    
+
+    // Formulário válido
     if (isValid && passwordsMatch) {
         message.textContent = "Registado com Sucesso!";
         message.style.color = 'green';
@@ -64,9 +66,9 @@ function validateForm() {
 function processFormData(e) {
     e.preventDefault();
     validateForm();
-    
+
     // Submeter os dados se válidos
-    if(isValid && passwordsMatch) {
+    if (isValid && passwordsMatch) {
         storeFormData();
     }
 
