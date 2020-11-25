@@ -3,7 +3,8 @@
 html {
     box-sizing: border-box;
 }
-
+/* -------------------------------------------------*/
+/*----------------------BODY----------------------- */
 body {
     margin: 0;
     min-height: 100vh;
@@ -12,16 +13,78 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #efe9e9;
+    background: #9ca0c1;
 }
 
+/* -------------------------------------------------*/
+/*----------------------FORM CONTAINER----------------------- */
 .container {
     background: #fff;
-    width: 600px;
-    height: 700px;
+    width: 480px;
+    height: 630px;
     display: flex;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0px 5px 30px 10px rgba(0, 0, 0, 0.4) ;
+}
+
+/* -------------------------------------------------*/
+/*----------------------FORM----------------------- */
+form {
+    width: 90%;
+}
+
+.form-group {
+    height: 65px;
+}
+
+label {
+    position: relative;
+    bottom: 3px;
+}
+input {
+    width: 100%;
+    height: 34px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+input:valid {
+    border: 1px solid green;
+}
+input:invalid {
+    border: 1px solid red;
+}
+
+button {
+    cursor: pointer;
+    width: 100%;
+     height: 50px;
+    color: #fff;
+    background: #000;
+    font-family: Sen, sans-serif;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+button:hover {
+    filter: brightness(200%);
+    background: #131313;
+}
+button:focus {
+    outline: none;
+}
+.message-container {
+    border: 1px solid #000;
+    width: 90%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #000;
 }
