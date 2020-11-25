@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Sen&display=swap");
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Sen, sans-serif;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #efe9e9;
+}
+
+.container {
+    background: #fff;
+    width: 600px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px 10px rgba(0, 0, 0, 0.4) ;
+}
